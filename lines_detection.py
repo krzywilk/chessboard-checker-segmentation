@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import math
-
+import intersections_detection
 
 def create_lines(image, rho = 1, theta = np.pi / 180, threshold = 200):
     edges = auto_canny_filter(image)
@@ -42,7 +42,8 @@ if __name__ == '__main__':
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     lines = create_lines(gray)
     lines = filter_close_lines(lines)
-
+    segmented = intersections_detection.kmeans_segment_vertical_horizontal_lines(lines)
+    intersections = intersections_detection.find_intersections(segmented)
     if lines is not None:
         for i in range(0, len(lines)):
             rho = lines[i][0][0]
@@ -54,6 +55,8 @@ if __name__ == '__main__':
             pt1 = (int(x0 + 1500*(-b)), int(y0 + 1500*(a)))
             pt2 = (int(x0 - 1500*(-b)), int(y0 - 1500*(a)))
             cv2.line(img, pt1, pt2, (0,0,255), 3, cv2.LINE_AA)
+    for inter in intersections:
+        cv2.circle(img, inter,3,  (255,255,0))
     # if lines2 is not None:
     #     for i in range(0, len(lines2)):
     #         rho = lines2[i][0][0]
