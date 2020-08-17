@@ -2,7 +2,7 @@ import cv2
 from chess_board_segmentation import lines_detection, intersections_detection
 from fields_crop import intersections_image_crop
 import numpy as np
-import glob
+import glob2
 
 
 def process_one_image(img):
@@ -28,7 +28,7 @@ def put_intersections(img, intersections):
 
 
 if __name__ == '__main__':
-    for i in glob.glob("dataset/**"):
+    for i in glob2.glob("dataset/**"):
         img = cv2.imread(i)
         cropped_image_parts, intersects, intersects_sparse_matrix = process_one_image(img)
 
