@@ -1,5 +1,5 @@
 import cv2
-from chess_board_segmentation import lines_detection, intersections_detection
+from chessboard_segmentation import lines_detection, intersections_detection
 from fields_crop import intersections_image_crop
 import numpy as np
 import glob2
