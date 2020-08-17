@@ -1,0 +1,1 @@
+Simple chess board segmentation
