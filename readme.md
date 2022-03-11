@@ -1,5 +1,5 @@
 
-#Simple chessboard segmentation.
+# Simple chessboard segmentation.
 ![Alt text](resources/readme/all.gif?raw=true "hough_line_transform")
 
 
@@ -10,7 +10,7 @@ The test dataset includes pictures of the board taken under slightly different a
 Field segmentation is based only on the classic computer vision and clustering algorithms.
 
 
-##Segmentation of the fields
+## Segmentation of the fields
 
 ### Lines detection on a chessboard
 ![Alt text](resources/readme/lines.gif?raw=true "hough_line_transform")
@@ -38,7 +38,7 @@ The Intersections are clustered due to the position on the Cartesian plane. Clus
 Intersection cluster centroids are calculated as the average of all existing points in the cluster.
 ![Alt text](resources/readme/intersections_centroids.jpg?raw=true "hough_line_transform_filtered_clustered")
 
-##Output
+## Output
 The result of the algorithm are points representing the coordinates of successive intersections of fields on the chessboard.
 ![Alt text](resources/readme/fields.jpg?raw=true "hough_line_transform_filtered_clustered")
 
