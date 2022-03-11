@@ -21,7 +21,7 @@ Line detection is based on Hough Line Transform.
 The algorithm filters redundant lines which rho and theta values ​​are similar to the already existing lines.
 ![Alt text](resources/readme/hough_line_transform_filtered.jpg?raw=true "hough_line_transform_filtered")
 #### Lines clustering
-The lines are clustered due to the angle of inclination. Clustering is done by the DBSCAN algorithm. Lines which are outliers are removed from lines list.
+The lines are clustered due to the angle of inclination. Clustering is done by the DBSCAN algorithm. Outlier lines are removed from lines list.
 ![Alt text](resources/readme/hough_line_transform_filtered_clustered.jpg?raw=true "hough_line_transform_filtered_clustered")
 
 ### Lines intersection on a chessboard
