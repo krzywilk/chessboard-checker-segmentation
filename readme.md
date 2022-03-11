@@ -1,3 +1,4 @@
+
 #Simple chessboard segmentation.
 ![Alt text](resources/readme/all.gif?raw=true "hough_line_transform")
 
@@ -7,6 +8,7 @@ The algorithm is designed to segment the fields on a standard 16-inch competitio
 The test dataset includes pictures of the board taken under slightly different angles and with different, albeit good lighting
 
 Field segmentation is based only on the classic computer vision and clustering algorithms.
+
 
 ##Segmentation of the fields
 
