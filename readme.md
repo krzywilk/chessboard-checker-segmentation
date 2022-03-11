@@ -1,5 +1,5 @@
 
-# Simple chessboard segmentation.
+# Simple chessboard squares segmentation
 ![Alt text](resources/readme/all.gif?raw=true "hough_line_transform")
 
 
