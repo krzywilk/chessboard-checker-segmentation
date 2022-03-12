@@ -9,6 +9,10 @@ The test dataset includes pictures of the board taken under slightly different a
 
 Checker segmentation is based only on the classic computer vision and clustering algorithms.
 
+## Output
+The result of the algorithm are points representing the coordinates of successive intersections of checkers on the chessboard.
+Cropping function has been implemented, shape of cropped fields is given as the argument of the function.
+![Alt text](resources/readme/cropped.gif?raw=true "hough_line_transform_filtered_clustered")
 
 ## Segmentation of the checkers
 
@@ -38,7 +42,5 @@ The Intersections are clustered due to the position on the Cartesian plane. Clus
 Intersection cluster centroids are calculated as the average of all existing points in the cluster.
 ![Alt text](resources/readme/intersections_centroids.jpg?raw=true "hough_line_transform_filtered_clustered")
 
-## Output
-The result of the algorithm are points representing the coordinates of successive intersections of checkers on the chessboard.
-![Alt text](resources/readme/fields.jpg?raw=true "hough_line_transform_filtered_clustered")
+
 
