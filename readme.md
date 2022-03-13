@@ -9,7 +9,7 @@ The test dataset includes pictures of the board taken under slightly different a
 
 Checker segmentation is based only on the classic computer vision and clustering algorithms.
 
-## Implementation
+## Scripts execution 
 
 <details>
 <summary> <b>Installation</b> </summary>
