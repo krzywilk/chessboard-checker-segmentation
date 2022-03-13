@@ -17,12 +17,12 @@ Cropping function has been implemented, shape of cropped fields is given as the 
 ## Algorithm steps details
 
 <details>
-<summary> Segmentation of the checkers</summary>
-<br>
+<summary><b> Segmentation of the checkers </b></summary>
 
-+ <details>
+
+<details>
 <summary> Lines detection on a chessboard</summary>
-<br>
+
 
 ### Lines detection on a chessboard
 ![Alt text](resources/readme/lines.gif?raw=true "hough_line_transform")
@@ -40,7 +40,7 @@ The lines are clustered due to the angle of inclination. Clustering is done by t
 
 <details>
 <summary> Lines detection on a chessboard</summary>
-<br>
+
 
 ### Lines intersection on a chessboard
 ![Alt text](resources/readme/intersections.gif?raw=true "hough_line_transform")
@@ -58,5 +58,19 @@ Intersection cluster centroids are calculated as the average of all existing poi
 
 </details>
 
+</details>
+
+## Experiments
+<details>
+<summary><b> Chess key points detection </b></summary>
+I am currently experimenting with detecting chess positions using key points. The key points determined by the SIFT algorithm on a previously properly preprocessed image are focused around chess.
+
+![Alt text](resources/readme/keypoints_2_1.gif?raw=true "hough_line_transform_filtered_clustered")
+
+The density of the accumulation of the key points varies depending on the size of the detection field. Increasing the window causes that the given checker is subject to the detection of key points several times.
+
+Unfortunately, so far I have only been able to focus key points on dark chess. White chess key point accumulation is negligible or it is focused on the contours of the chess. 
+
+Very messy implementation of key points extraction can be found on separate branch 
 </details>
 
