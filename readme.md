@@ -43,7 +43,7 @@ Cropping function has been implemented, shape of cropped fields is given as the 
 Line detection is based on Hough Line Transform.
 ![Alt text](resources/readme/hough_line_transform.jpg?raw=true "hough_line_transform")
 #### Lines filtering
-The algorithm filters redundant lines which rho and theta values ​​are similar to the already existing lines.
+The algorithm filters redundant lines which rho and theta values ​​are close to each other.
 ![Alt text](resources/readme/hough_line_transform_filtered.jpg?raw=true "hough_line_transform_filtered")
 #### Lines clustering
 The lines are clustered due to the angle of inclination. Clustering is done by the DBSCAN algorithm. Outlier lines are removed from lines list.
