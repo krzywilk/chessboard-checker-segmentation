@@ -38,7 +38,10 @@ The lines are clustered due to the angle of inclination. Clustering is done by t
 
 </details>
 
-### Lines intersection on a chessboard
+<details>
+<summary> Lines intersection on a chessboard</summary>
+<br>
+
 ![Alt text](resources/readme/intersections.gif?raw=true "hough_line_transform")
 #### Intersections
 All points of intersection between the horizontal and vertical lines are calculated basis on theta i rho of lines.
@@ -51,6 +54,8 @@ The Intersections are clustered due to the position on the Cartesian plane. Clus
 #### Intersections clusters centroids
 Intersection cluster centroids are calculated as the average of all existing points in the cluster.
 ![Alt text](resources/readme/intersections_centroids.jpg?raw=true "hough_line_transform_filtered_clustered")
+
+</details>
 
 </details>
 
