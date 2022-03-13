@@ -9,6 +9,19 @@ The test dataset includes pictures of the board taken under slightly different a
 
 Checker segmentation is based only on the classic computer vision and clustering algorithms.
 
+## Implementation
+
+<details>
+<summary> <b>Installation</b> </summary>
+Due to the use of only image operations and unattended clustering algorithms, the GPU is not required. 
+To prepare the environment, just install the libraries from requirements.txt.
+</details>
+<details>
+<summary> <b>Running</b> </summary>
+Temporarily there is no specific script configuration. An example usage is in the main.py file.
+</details>
+
+
 ## Output
 The result of the algorithm are points representing the coordinates of successive intersections of checkers on the chessboard.
 Cropping function has been implemented, shape of cropped fields is given as the argument of the function.
