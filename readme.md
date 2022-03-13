@@ -20,7 +20,7 @@ Cropping function has been implemented, shape of cropped fields is given as the 
 <summary> Segmentation of the checkers</summary>
 <br>
 
-<details>
++ <details>
 <summary> Lines detection on a chessboard</summary>
 <br>
 
@@ -39,9 +39,10 @@ The lines are clustered due to the angle of inclination. Clustering is done by t
 </details>
 
 <details>
-<summary> Lines intersection on a chessboard</summary>
+<summary> Lines detection on a chessboard</summary>
 <br>
 
+### Lines intersection on a chessboard
 ![Alt text](resources/readme/intersections.gif?raw=true "hough_line_transform")
 #### Intersections
 All points of intersection between the horizontal and vertical lines are calculated basis on theta i rho of lines.
