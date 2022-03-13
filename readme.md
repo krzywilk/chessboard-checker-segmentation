@@ -82,7 +82,7 @@ I am currently experimenting with detecting chess positions using key points. Th
 
 The density of the accumulation of the key points varies depending on the size of the detection field. Increasing the window causes that the given checker is subject to the detection of key points several times.
 
-Unfortunately, so far I have only been able to focus key points on dark chess. White chess key point accumulation is negligible or it is focused on the contours of the chess. 
+Unfortunately, so far I have only been able to focus key points on dark chess. White chess key points accumulation is negligible or it is focused on the contours of the chess. 
 
 Very messy implementation of key points extraction can be found on separate branch.
 </details>
