@@ -23,7 +23,7 @@ Temporarily there is no specific script configuration. An example usage is in th
 
 
 ## Output
-The result of the algorithm are points representing the coordinates of successive intersections of checkers on the chessboard.
+The result of the algorithm are points representing the coordinates of successive corners of checkers on the chessboard.
 Cropping function has been implemented, shape of cropped fields is given as the argument of the function.
 ![Alt text](resources/readme/cropped.gif?raw=true "hough_line_transform_filtered_clustered")
 
