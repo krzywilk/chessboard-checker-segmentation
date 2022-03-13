@@ -52,7 +52,7 @@ The lines are clustered due to the angle of inclination. Clustering is done by t
 </details>
 
 <details>
-<summary> Lines detection on a chessboard</summary>
+<summary> Checkers corners detection</summary>
 
 
 ### Lines intersection on a chessboard
