@@ -71,6 +71,6 @@ The density of the accumulation of the key points varies depending on the size o
 
 Unfortunately, so far I have only been able to focus key points on dark chess. White chess key point accumulation is negligible or it is focused on the contours of the chess. 
 
-Very messy implementation of key points extraction can be found on separate branch 
+Very messy implementation of key points extraction can be found on separate branch.
 </details>
 
