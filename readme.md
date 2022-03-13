@@ -14,7 +14,15 @@ The result of the algorithm are points representing the coordinates of successiv
 Cropping function has been implemented, shape of cropped fields is given as the argument of the function.
 ![Alt text](resources/readme/cropped.gif?raw=true "hough_line_transform_filtered_clustered")
 
-## Segmentation of the checkers
+## Algorithm steps details
+
+<details>
+<summary> Segmentation of the checkers</summary>
+<br>
+
+<details>
+<summary> Lines detection on a chessboard</summary>
+<br>
 
 ### Lines detection on a chessboard
 ![Alt text](resources/readme/lines.gif?raw=true "hough_line_transform")
@@ -27,6 +35,8 @@ The algorithm filters redundant lines which rho and theta values ​​are simil
 #### Lines clustering
 The lines are clustered due to the angle of inclination. Clustering is done by the DBSCAN algorithm. Outlier lines are removed from lines list.
 ![Alt text](resources/readme/hough_line_transform_filtered_clustered.jpg?raw=true "hough_line_transform_filtered_clustered")
+
+</details>
 
 ### Lines intersection on a chessboard
 ![Alt text](resources/readme/intersections.gif?raw=true "hough_line_transform")
@@ -42,5 +52,5 @@ The Intersections are clustered due to the position on the Cartesian plane. Clus
 Intersection cluster centroids are calculated as the average of all existing points in the cluster.
 ![Alt text](resources/readme/intersections_centroids.jpg?raw=true "hough_line_transform_filtered_clustered")
 
-
+</details>
 
