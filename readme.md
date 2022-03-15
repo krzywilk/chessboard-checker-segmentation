@@ -13,7 +13,7 @@ Checker segmentation is based only on the classic computer vision and clustering
 
 <details>
 <summary> <b>Installation</b> </summary>
-Due to the use of only image operations and unattended clustering algorithms, the GPU is not required. 
+Due to the use of only image operations and unsupervised clustering algorithms, the GPU is not required. 
 To prepare the environment, just install the libraries from requirements.txt.
 </details>
 <details>
